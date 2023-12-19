@@ -11,7 +11,7 @@ class Talker():
 <<<<<<< HEAD
 <<<<<<< HEAD
 def cb():          #17行目で定期実行されるコールバック関数
-    global n       #関数を抜けてもnがリセットされないようにしている
+    global n       
     msg = Int16()  #メッセージの「オブジェクト」
     msg.data = n#msgオブジェクトの持つdataにnを結び付け
     pub.publish(msg)        #pubの持つpublishでメッセージ送信
