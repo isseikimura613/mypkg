@@ -43,6 +43,7 @@ $ ros2 run mypkg listener
 [INFO] [1703689414.890145275] [listener]: Listen: 5
 [INFO] [1703689415.391211736] [listener]: Listen: 6
 [INFO] [1703689415.890027850] [listener]: Listen: 7
+...
 ```
 
 ## launch
@@ -68,6 +69,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1703690062.082301753] [listener]: Listen: 3
 [listener-2] [INFO] [1703690062.581819096] [listener]: Listen: 4
 [listener-2] [INFO] [1703690063.082548454] [listener]: Listen: 5
+...
 ```
 
 ## トピック
