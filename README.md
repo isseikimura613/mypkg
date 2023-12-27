@@ -5,18 +5,19 @@
 mypkgは千葉工業大学未来ロボティクス学科の2023年度ロボットシステム学の授業課題である。
 
 ## talker.pyとlistener.pyについて
-* talker
+* talker.py
   
   0.5秒おきに整数0からカウントする。
-* listener
+  
+* listener.py
   
   talkerから受け取った内容を表示する。
 
 ## 実行例
 
-talkerとlistenerを実行するには端末を分ける必要がある。
+talker.pyとlistener.pyを実行するには端末を分ける必要がある。
 
-* talker（端末１）
+* talker.py（端末１）
 ```
 $ ros2 run mypkg talker
 ```
@@ -26,7 +27,7 @@ $ ros2 run mypkg talker
 何も表示されない
 ```
 
-* listener（端末２）
+* listener.py（端末２）
 ```
 $ ros2 run mypkg listener
 ```
@@ -46,15 +47,13 @@ $ ros2 run mypkg listener
 
 ## launch
 
-talkerとlistenerを同時に動かすことができる。
+talker.pyとlistener.pyを同時に動かすことができる。
 
 * 実行例
 
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 ```
-
-## トピック
 
 * 実行結果
 
@@ -70,6 +69,12 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1703690062.581819096] [listener]: Listen: 4
 [listener-2] [INFO] [1703690063.082548454] [listener]: Listen: 5
 ```
+
+## トピック
+
+ROS2のノード間でデータをやり取りするための仕組みである。
+
+talkerはトピックにデータを送信するノードであり、listenerはトピックからデータを受信するノードである。
 
 
 ## 必要なソフトウェア
