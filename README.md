@@ -2,7 +2,7 @@
 [![test](https://github.com/isseikimura613/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/isseikimura613/mypkg/actions/workflows/test.yml)
 
 ## mypkgについて
-mypkgは千葉工業大学未来ロボティクス学科の2023年度ロボットシステム学の授業課題である。
+mypkgは千葉工業大学未来ロボティクス学科2023年度ロボットシステム学の授業課題のリポジトリである。
 
 ## talker.pyとlistener.pyについて
 * talker.py
