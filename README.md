@@ -13,6 +13,13 @@ mypkgは千葉工業大学未来ロボティクス学科2023年度ロボット�
   
   トピック（countup）から受け取った内容を表示する。
 
+## トピックについて
+
+ROS2のノード間でデータをやり取りするための流路である。
+
+talkerはトピック（countup）にデータを送信するノードであり、listenerはトピック（countup）からデータを受信するノードである。
+
+
 ## 実行例
 
 talker.pyとlistener.pyを実行するには端末を分ける必要がある。
@@ -71,13 +78,6 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1703690063.082548454] [listener]: Listen: 5
 ...
 ```
-
-## トピック
-
-ROS2のノード間でデータをやり取りするための流路である。
-
-talkerはトピック（countup）にデータを送信するノードであり、listenerはトピック（countup）からデータを受信するノードである。
-
 
 ## 必要なソフトウェア
 * Python
