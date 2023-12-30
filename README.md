@@ -88,7 +88,7 @@ talkerはトピック（countup）にデータを送信するノードであり�
 
 ## テスト内容
 * 2023年度ロボットシステム学の授業内で使用した上田隆一先生のコンテナを使用しています。
-* [上田隆一先生のコンテナ](https://hub.docker.com/r/ryuichiueda/ubuntu22.04-ros2)
+* [使用したコンテナ](https://hub.docker.com/r/ryuichiueda/ubuntu22.04-ros2)
 
 # ライセンス
 * このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布及び使用が許可されています。
