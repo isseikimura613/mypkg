@@ -13,7 +13,7 @@ mypkgは千葉工業大学未来ロボティクス学科2023年度ロボット�
   
 * listener.py
   
-  トピック（countup）から受け取った内容を表示する。
+  トピック（countup）から受け取った内容を受信して表示する。
 
 ## トピックについて
 
@@ -75,6 +75,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1703690063.082548454] [listener]: Listen: 5
 ...
 ```
+
 
 ## 必要なソフトウェア
 * Python
