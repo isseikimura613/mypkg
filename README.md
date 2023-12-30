@@ -15,7 +15,7 @@ mypkgは千葉工業大学未来ロボティクス学科2023年度ロボット�
 
 ## トピックについて
 
-ROS2のノード間でデータをやり取りするための流路である。
+ROS 2のノード間でデータをやり取りするための流路である。
 
 talkerはトピック（countup）にデータを送信するノードであり、listenerはトピック（countup）からデータを受信するノードである。
 
@@ -28,7 +28,6 @@ talker.pyとlistener.pyを実行するには端末を分ける必要がある。
 ```
 $ ros2 run mypkg talker
 ```
-実行結果
 
 ```
 何も表示されない
@@ -38,8 +37,6 @@ $ ros2 run mypkg talker
 ```
 $ ros2 run mypkg listener
 ```
-
-実行結果
 
 ```
 [INFO] [1703689412.411794178] [listener]: Listen: 0
@@ -63,8 +60,6 @@ talker.pyとlistener.pyを同時に動かすことができる。
 $ ros2 launch mypkg talk_listen.launch.py
 ```
 
-* 実行結果
-
 ```
 [INFO] [launch]: All log files can be found below /home/issei38/.ros/log/2023-12-28-00-14-19-650196-ISSEI-853
 [INFO] [launch]: Default logging verbosity is set to INFO
@@ -81,7 +76,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 
 ## 必要なソフトウェア
 * Python
-* ROS2
+* ROS 2
 
 ## テスト環境
 * Ubuntu 20.04
